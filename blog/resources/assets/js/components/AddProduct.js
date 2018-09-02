@@ -72,7 +72,7 @@ class Main extends Component {
         
         body: JSON.stringify(product)
     })
-    .then(response => {
+    .then( response => {
         return response.json();
     })
     .then( data => {
